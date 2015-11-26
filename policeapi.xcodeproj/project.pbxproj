@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		154EC4491ACDD72300752541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EC4481ACDD72300752541 /* AppDelegate.swift */; };
-		154EC44B1ACDD72300752541 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EC44A1ACDD72300752541 /* MasterViewController.swift */; };
-		154EC44D1ACDD72300752541 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EC44C1ACDD72300752541 /* DetailViewController.swift */; };
+		15357B101ACDDAB50044C026 /* DDCrimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15357B0E1ACDDAB50044C026 /* DDCrimeViewController.swift */; };
+		15357B111ACDDAB50044C026 /* DDForcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15357B0F1ACDDAB50044C026 /* DDForcesViewController.swift */; };
+		15357B141ACDDAD00044C026 /* DDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15357B131ACDDAD00044C026 /* DDConstants.swift */; };
+		15357B161ACDE8F60044C026 /* DDNeighbourhoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15357B151ACDE8F60044C026 /* DDNeighbourhoodsViewController.swift */; };
+		15357B181ACDF3D00044C026 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15357B171ACDF3D00044C026 /* MapKit.framework */; };
+		154EC4491ACDD72300752541 /* DDAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EC4481ACDD72300752541 /* DDAppDelegate.swift */; };
 		154EC4501ACDD72300752541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154EC44E1ACDD72300752541 /* Main.storyboard */; };
 		154EC4521ACDD72300752541 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154EC4511ACDD72300752541 /* Images.xcassets */; };
-		154EC4551ACDD72300752541 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 154EC4531ACDD72300752541 /* LaunchScreen.xib */; };
 		154EC4611ACDD72300752541 /* policeapiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EC4601ACDD72300752541 /* policeapiTests.swift */; };
+		B590FFD3329582A5ADDA1B1C /* Pods_policeapi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B54AD0F8BDE1F9EE9D20892 /* Pods_policeapi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15357B0E1ACDDAB50044C026 /* DDCrimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDCrimeViewController.swift; sourceTree = "<group>"; };
+		15357B0F1ACDDAB50044C026 /* DDForcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDForcesViewController.swift; sourceTree = "<group>"; };
+		15357B131ACDDAD00044C026 /* DDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDConstants.swift; sourceTree = "<group>"; };
+		15357B151ACDE8F60044C026 /* DDNeighbourhoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNeighbourhoodsViewController.swift; sourceTree = "<group>"; };
+		15357B171ACDF3D00044C026 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		154EC4431ACDD72300752541 /* policeapi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = policeapi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		154EC4471ACDD72300752541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		154EC4481ACDD72300752541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		154EC44A1ACDD72300752541 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		154EC44C1ACDD72300752541 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		154EC4481ACDD72300752541 /* DDAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDAppDelegate.swift; sourceTree = "<group>"; };
 		154EC44F1ACDD72300752541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		154EC4511ACDD72300752541 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		154EC4541ACDD72300752541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		154EC45A1ACDD72300752541 /* policeapiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = policeapiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		154EC45F1ACDD72300752541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154EC4601ACDD72300752541 /* policeapiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = policeapiTests.swift; sourceTree = "<group>"; };
+		4319691ADD500BBB45C36D72 /* Pods-policeapi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-policeapi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-policeapi/Pods-policeapi.debug.xcconfig"; sourceTree = "<group>"; };
+		8B54AD0F8BDE1F9EE9D20892 /* Pods_policeapi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_policeapi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D775D2865C56B87ED53217 /* Pods-policeapi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-policeapi.release.xcconfig"; path = "Pods/Target Support Files/Pods-policeapi/Pods-policeapi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15357B181ACDF3D00044C026 /* MapKit.framework in Frameworks */,
+				B590FFD3329582A5ADDA1B1C /* Pods_policeapi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,12 +68,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15357B0D1ACDDAB50044C026 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15357B0E1ACDDAB50044C026 /* DDCrimeViewController.swift */,
+				15357B0F1ACDDAB50044C026 /* DDForcesViewController.swift */,
+				15357B151ACDE8F60044C026 /* DDNeighbourhoodsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15357B121ACDDAC00044C026 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				15357B131ACDDAD00044C026 /* DDConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		154EC43A1ACDD72300752541 = {
 			isa = PBXGroup;
 			children = (
 				154EC4451ACDD72300752541 /* policeapi */,
 				154EC45D1ACDD72300752541 /* policeapiTests */,
 				154EC4441ACDD72300752541 /* Products */,
+				9082496552EBF7CC6289FEEC /* Pods */,
+				5D90AD0C9E9269BC1CC48284 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,12 +109,11 @@
 		154EC4451ACDD72300752541 /* policeapi */ = {
 			isa = PBXGroup;
 			children = (
-				154EC4481ACDD72300752541 /* AppDelegate.swift */,
-				154EC44A1ACDD72300752541 /* MasterViewController.swift */,
-				154EC44C1ACDD72300752541 /* DetailViewController.swift */,
+				15357B121ACDDAC00044C026 /* Constants */,
+				15357B0D1ACDDAB50044C026 /* View */,
+				154EC4481ACDD72300752541 /* DDAppDelegate.swift */,
 				154EC44E1ACDD72300752541 /* Main.storyboard */,
 				154EC4511ACDD72300752541 /* Images.xcassets */,
-				154EC4531ACDD72300752541 /* LaunchScreen.xib */,
 				154EC4461ACDD72300752541 /* Supporting Files */,
 			);
 			path = policeapi;
@@ -115,6 +144,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5D90AD0C9E9269BC1CC48284 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15357B171ACDF3D00044C026 /* MapKit.framework */,
+				8B54AD0F8BDE1F9EE9D20892 /* Pods_policeapi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9082496552EBF7CC6289FEEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4319691ADD500BBB45C36D72 /* Pods-policeapi.debug.xcconfig */,
+				D4D775D2865C56B87ED53217 /* Pods-policeapi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 154EC4641ACDD72300752541 /* Build configuration list for PBXNativeTarget "policeapi" */;
 			buildPhases = (
+				E998EE77C2EE03479F68DAC8 /* Check Pods Manifest.lock */,
 				154EC43F1ACDD72300752541 /* Sources */,
 				154EC4401ACDD72300752541 /* Frameworks */,
 				154EC4411ACDD72300752541 /* Resources */,
+				08E5EC4B723976B85B0D6203 /* Copy Pods Resources */,
+				35005FE6B548BF2A56CF287B /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,11 +209,19 @@
 		154EC43B1ACDD72300752541 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DD;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = Dosiedo;
 				TargetAttributes = {
 					154EC4421ACDD72300752541 = {
 						CreatedOnToolsVersion = 6.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					154EC4591ACDD72300752541 = {
 						CreatedOnToolsVersion = 6.2;
@@ -196,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				154EC4501ACDD72300752541 /* Main.storyboard in Resources */,
-				154EC4551ACDD72300752541 /* LaunchScreen.xib in Resources */,
 				154EC4521ACDD72300752541 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,14 +267,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08E5EC4B723976B85B0D6203 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-policeapi/Pods-policeapi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35005FE6B548BF2A56CF287B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-policeapi/Pods-policeapi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E998EE77C2EE03479F68DAC8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		154EC43F1ACDD72300752541 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				154EC44D1ACDD72300752541 /* DetailViewController.swift in Sources */,
-				154EC44B1ACDD72300752541 /* MasterViewController.swift in Sources */,
-				154EC4491ACDD72300752541 /* AppDelegate.swift in Sources */,
+				154EC4491ACDD72300752541 /* DDAppDelegate.swift in Sources */,
+				15357B101ACDDAB50044C026 /* DDCrimeViewController.swift in Sources */,
+				15357B111ACDDAB50044C026 /* DDForcesViewController.swift in Sources */,
+				15357B141ACDDAD00044C026 /* DDConstants.swift in Sources */,
+				15357B161ACDE8F60044C026 /* DDNeighbourhoodsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,14 +353,6 @@
 				154EC44F1ACDD72300752541 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		154EC4531ACDD72300752541 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				154EC4541ACDD72300752541 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -340,6 +439,7 @@
 		};
 		154EC4651ACDD72300752541 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4319691ADD500BBB45C36D72 /* Pods-policeapi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = policeapi/Info.plist;
@@ -350,6 +450,7 @@
 		};
 		154EC4661ACDD72300752541 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D775D2865C56B87ED53217 /* Pods-policeapi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = policeapi/Info.plist;
@@ -411,6 +512,7 @@
 				154EC4661ACDD72300752541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		154EC4671ACDD72300752541 /* Build configuration list for PBXNativeTarget "policeapiTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +521,7 @@
 				154EC4691ACDD72300752541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
